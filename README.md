@@ -25,10 +25,10 @@ This uses masscan for faster port enumeration. Running from a hosted server is r
 Check out the script options on lines 18, and 19.
 
 You need the following installed and accessible through your $PATH:
- - masscan
- - nmap
- - theHarvester.py
- - firefox
+ - [masscan](https://github.com/robertdavidgraham/masscan)
+ - [nmap](https://nmap.org/)
+ - [theHarvester.py](https://github.com/laramies/theHarvester)
+ - [firefox](https://www.mozilla.org/en-US/firefox/)
 
 What happens:
  - masscan
