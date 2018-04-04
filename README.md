@@ -6,7 +6,7 @@ How to use
 
 Take your list of IP addresses and put them in a file, one per line. You can also use CIDR notation.
 
-If you're running `autoenum.pl` on a hosted server (recommended), swap `$ISLOCAL` on line 19 to 0.
+If you're running `autoenum.pl` on a hosted server (recommended), swap `$ISLOCAL` on [line 19](https://github.com/Djent-/autoenum/blob/master/autoenum.pl#L19) to `0`.
 
 ```
 autoenum.pl [filename]
