@@ -41,7 +41,7 @@ my $output = `$masscan`;
 my $UniqueUpHosts = "cat masscangrep.txt | grep -o -E \"[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\" | sort -u | tee uniquehosts.txt";
 $output = `$UniqueUpHosts`;
 my @hosts = split("\n", $output);
-my $UpHosts = join(",", @hosts);
+my $UpHosts = join(" ", @hosts);
 my $hosts = @hosts;
 print "UpHosts: $UpHosts\n" if $DEBUG;
 
